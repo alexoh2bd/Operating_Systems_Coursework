@@ -1,0 +1,21 @@
+Pt 3
+
+
+I am surprised by how much time is saved by using caches at this fundamental level of system design. There is such a varity of designs, and there is always a tradeoff of storage v time.
+I am surprised by the the effect which 2-3 cache designs can have on the efficiency of a system.
+I am surprised by the limited number of total cache designs.
+
+
+How do differences in indexing methods impact the efficiency and order of address translation operations?
+How does this paper contribute to the advancement of MMU cache design and its application in modern processor architectures?
+Are there ways to take advantage of one of the page or translation tables from a hacker's perspective?
+
+
+I would like to learn more about the security of the translation process.
+
+
+All page table caches have an indexing scheme which relies on finding the L4 entries first and walking down to L1 from there. In a UTC, the MMU can walk from the L2 page table path having L3 and L4 as its tags. In the STC, the MMU starts with L2 entries with L3 and L4 tags and works backwards to L3 entries if it can not find the corresponding address. Thus, a page table must cover L4, L3, and L2 entries while a translation cache can cover an entire address with just an L2 entry. 
+
+When dealing with small amounts of memory, you are more likely to retain L4-L2 entries because the differences in memory address ranges are mostly below the L2 level. Thus, efficiency in the L1 level is key in small memory applications.   With this same logic, when dealing with large amounts of memory (Gigabytes+), caching in the L3-L4 levels would be critical in maintaining efficiency. The amount of memory a process uses determines which levels of the page table or translation table are important in making the cache effective.
+
+

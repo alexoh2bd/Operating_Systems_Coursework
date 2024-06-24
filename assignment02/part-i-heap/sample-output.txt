@@ -1,0 +1,81 @@
+  PID              START                END PRT  RES PRES REF SHD FLAG  TP PATH
+ 3937           0x200000           0x201000 r--    1    4   3   1 CN--- vn /home/aoh/a/cs414/assignment02/part-i-heap/wheres-the-heap
+ 3937           0x210000           0x211000 r-x    1    4   3   1 CN--- vn /home/aoh/a/cs414/assignment02/part-i-heap/wheres-the-heap
+ 3937           0x220000           0x221000 r--    1    0   1   0 C---- vn /home/aoh/a/cs414/assignment02/part-i-heap/wheres-the-heap
+ 3937           0x230000           0x231000 rw-    1    1   1   0 ----- sw 
+ 3937         0x40d17000         0x80cf7000 ---    0    0   0   0 ----- gd 
+ 3937         0x80cf7000         0x80d17000 rw-    5    5   1   0 ---D- sw 
+ 3937         0x81c5a000         0x81c5b000 r-x    1    1  27   0 ----- ph 
+ 3937         0x82ad9000         0x82b5e000 r--   85  376 103  53 CN--- vn /lib/libc.so.7
+ 3937         0x82b5e000         0x82b6d000 ---    0    0   0   0 CN--- gd 
+ 3937         0x82b6d000         0x82c9e000 r-x  265  376 103  53 CN--- vn /lib/libc.so.7
+ 3937         0x82c9e000         0x82cad000 ---    0    0   0   0 CN--- gd 
+ 3937         0x82cad000         0x82cb6000 r--    9    0   2   0 C---- vn /lib/libc.so.7
+ 3937         0x82cb6000         0x82cb7000 rw-    1    0   2   0 C---- vn /lib/libc.so.7
+ 3937         0x82cb7000         0x82cc6000 ---    0    0   0   0 CN--- gd 
+ 3937         0x82cc6000         0x82ccd000 rw-    7    0   1   0 C---- vn /lib/libc.so.7
+ 3937         0x82ccd000         0x82eef000 rw-   18   18   1   0 ----- sw 
+ 3937     0x450f06a00000     0x450f06a21000 rw-   23   23   1   0 ----- sw 
+ 3937     0x450f06c00000     0x450f07400000 rw-   14   14   1   0 ----- sw 
+ 3937     0x70106b09b000     0x70106b0a1000 r--    6   28  92  42 CN--- vn /libexec/ld-elf.so.1
+ 3937     0x70106b0b0000     0x70106b0c6000 r-x   22   28  92  42 CN--- vn /libexec/ld-elf.so.1
+ 3937     0x70106b0d5000     0x70106b0d6000 r--    1    0   1   0 C---- vn /libexec/ld-elf.so.1
+ 3937     0x70106b0e5000     0x70106b0e6000 rw-    1    0   1   0 C---- vn /libexec/ld-elf.so.1
+ 3937     0x70106b0e6000     0x70106b0e8000 rw-    2    2   1   0 ----- sw 
+ 3937     0xfffffffff000    0x1000000000000 ---    0    0   0   0 ----- gd 
+  PID              START                END PRT  RES PRES REF SHD FLAG  TP PATH
+ 3937           0x200000           0x201000 r--    1    4   3   1 CN--- vn /home/aoh/a/cs414/assignment02/part-i-heap/wheres-the-heap
+ 3937           0x210000           0x211000 r-x    1    4   3   1 CN--- vn /home/aoh/a/cs414/assignment02/part-i-heap/wheres-the-heap
+ 3937           0x220000           0x221000 r--    1    0   1   0 C---- vn /home/aoh/a/cs414/assignment02/part-i-heap/wheres-the-heap
+ 3937           0x230000           0x231000 rw-    1    1   1   0 ----- sw 
+ 3937         0x40d17000         0x80cf7000 ---    0    0   0   0 ----- gd 
+ 3937         0x80cf7000         0x80d17000 rw-    5    5   1   0 ---D- sw 
+ 3937         0x81c5a000         0x81c5b000 r-x    1    1  27   0 ----- ph 
+ 3937         0x82ad9000         0x82b5e000 r--   85  376 103  53 CN--- vn /lib/libc.so.7
+ 3937         0x82b5e000         0x82b6d000 ---    0    0   0   0 CN--- gd 
+ 3937         0x82b6d000         0x82c9e000 r-x  265  376 103  53 CN--- vn /lib/libc.so.7
+ 3937         0x82c9e000         0x82cad000 ---    0    0   0   0 CN--- gd 
+ 3937         0x82cad000         0x82cb6000 r--    9    0   2   0 C---- vn /lib/libc.so.7
+ 3937         0x82cb6000         0x82cb7000 rw-    1    0   2   0 C---- vn /lib/libc.so.7
+ 3937         0x82cb7000         0x82cc6000 ---    0    0   0   0 CN--- gd 
+ 3937         0x82cc6000         0x82ccd000 rw-    7    0   1   0 C---- vn /lib/libc.so.7
+ 3937         0x82ccd000         0x82eef000 rw-   18   18   1   0 ----- sw 
+ 3937     0x450f06a00000     0x450f06a21000 rw-   23   23   1   0 ----- sw 
+ 3937     0x450f06c00000     0x450f15600000 rw- 48856 48856   1   0 --S-- sw 
+ 3937     0x70106b09b000     0x70106b0a1000 r--    6   28  92  42 CN--- vn /libexec/ld-elf.so.1
+ 3937     0x70106b0b0000     0x70106b0c6000 r-x   22   28  92  42 CN--- vn /libexec/ld-elf.so.1
+ 3937     0x70106b0d5000     0x70106b0d6000 r--    1    0   1   0 C---- vn /libexec/ld-elf.so.1
+ 3937     0x70106b0e5000     0x70106b0e6000 rw-    1    0   1   0 C---- vn /libexec/ld-elf.so.1
+ 3937     0x70106b0e6000     0x70106b0e8000 rw-    2    2   1   0 ----- sw 
+ 3937     0xfffffffff000    0x1000000000000 ---    0    0   0   0 ----- gd 
+  PID              START                END PRT  RES PRES REF SHD FLAG  TP PATH
+ 3937           0x200000           0x201000 r--    1    4   3   1 CN--- vn /home/aoh/a/cs414/assignment02/part-i-heap/wheres-the-heap
+ 3937           0x210000           0x211000 r-x    1    4   3   1 CN--- vn /home/aoh/a/cs414/assignment02/part-i-heap/wheres-the-heap
+ 3937           0x220000           0x221000 r--    1    0   1   0 C---- vn /home/aoh/a/cs414/assignment02/part-i-heap/wheres-the-heap
+ 3937           0x230000           0x231000 rw-    1    1   1   0 ----- sw 
+ 3937         0x40d17000         0x80cf7000 ---    0    0   0   0 ----- gd 
+ 3937         0x80cf7000         0x80d17000 rw-    5    5   1   0 ---D- sw 
+ 3937         0x81c5a000         0x81c5b000 r-x    1    1  27   0 ----- ph 
+ 3937         0x82ad9000         0x82b5e000 r--   85  376 103  53 CN--- vn /lib/libc.so.7
+ 3937         0x82b5e000         0x82b6d000 ---    0    0   0   0 CN--- gd 
+ 3937         0x82b6d000         0x82c9e000 r-x  265  376 103  53 CN--- vn /lib/libc.so.7
+ 3937         0x82c9e000         0x82cad000 ---    0    0   0   0 CN--- gd 
+ 3937         0x82cad000         0x82cb6000 r--    9    0   2   0 C---- vn /lib/libc.so.7
+ 3937         0x82cb6000         0x82cb7000 rw-    1    0   2   0 C---- vn /lib/libc.so.7
+ 3937         0x82cb7000         0x82cc6000 ---    0    0   0   0 CN--- gd 
+ 3937         0x82cc6000         0x82ccd000 rw-    7    0   1   0 C---- vn /lib/libc.so.7
+ 3937         0x82ccd000         0x82eef000 rw-   18   18   1   0 ----- sw 
+ 3937     0x450f06a00000     0x450f06a21000 rw-   23   23   1   0 ----- sw 
+ 3937     0x450f06c00000     0x450f15600000 rw- 48856 48856   1   0 ----- sw 
+ 3937     0x70106b09b000     0x70106b0a1000 r--    6   28  92  42 CN--- vn /libexec/ld-elf.so.1
+ 3937     0x70106b0b0000     0x70106b0c6000 r-x   22   28  92  42 CN--- vn /libexec/ld-elf.so.1
+ 3937     0x70106b0d5000     0x70106b0d6000 r--    1    0   1   0 C---- vn /libexec/ld-elf.so.1
+ 3937     0x70106b0e5000     0x70106b0e6000 rw-    1    0   1   0 C---- vn /libexec/ld-elf.so.1
+ 3937     0x70106b0e6000     0x70106b0e8000 rw-    2    2   1   0 ----- sw 
+ 3937     0xfffffffff000    0x1000000000000 ---    0    0   0   0 ----- gd 
+my pid is 3937
+Before malloc:
+Malloced Addresses: 0x450f07600380 should end here: 0x450efb744180, or 0x450f134bc580
+
+After malloc:
+After free:

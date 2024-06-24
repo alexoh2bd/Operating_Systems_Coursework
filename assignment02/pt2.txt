@@ -1,0 +1,26 @@
+Alexander Oh
+Assignment 2
+04/17/2024
+
+Part 2
+
+systemd-oomd is userspace out-of-memory killer, which kills any process which is overwhelming the RAM and subsequently creates system lag. The program is generally considered too aggressive and will kill applications without warning.
+
+systemd-oomd primarily acts by detecting when RAM is low using memory pressure, or the percentage of time a cgroup has wasted due to poor memory allocation. Tasks like reclaiming free memory, recurring page faults, and loading anonymous pages from swap space are all monitored. When a monitored cgroup exceeds a given threshold, system-oomd will act upon the processes in the cgroup. 
+
+systemd-oomd monitors control groups v2 (cgroups) and pressure stall information (PSI) to decide when to act. cgroups organize processes hierarchically and distributing system resources accordingly. PSI identifies and provides kernel information on any system disruptions caused by overexertion of resources. 
+
+systemd-oomd is beneficial when one is close to running out of RAM. On some machines, if RAM is close to running out, the whole system freezes, and the only fix is too cut power, losing whatever data is in that process. systemd-oomd is designed to prevent certain processes from monopolizing the system and hoarding memory and resources. 
+
+
+
+https://fedoraproject.org/wiki/Changes/EnableSystemdOomd
+https://www.cjjackson.dev/posts/what-is-systemd-oomd-how-to-disable-it/
+https://www.freedesktop.org/software/systemd/man/latest/systemd-oomd.service.html
+https://docs.kernel.org/admin-guide/cgroup-v2.html
+https://www.reddit.com/r/Fedora/comments/10s06fd/why_is_systemdoomd_still_a_thing
+
+
+
+
+

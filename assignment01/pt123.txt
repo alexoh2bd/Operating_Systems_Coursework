@@ -1,0 +1,49 @@
+Alexander Oh
+Advanced Operating Systems
+Assignment 01
+03/13/24
+
+
+/* Part 1 Instructions  */
+
+To reproduce the transcript in pt1.log, run the command "sudo dtrace -s pt1.d -c ls". 
+
+
+
+/* Part 2 */
+
+
+A futex, or Fast User Space Mutex, is a system call which is used to lock out other processes from accessing the shared data. Tasks compete for the same resources in memory, and the kernel is responsible for organizing and finding futex addresses and their associated tasks.The kernel does this using a hashmap using a hash key with the futex address and the value of the corresponding thread. A futex_wait operation is used to sleep until the thread changes futex's flag value, waking the futex_wait call and changing the status of the futex. Threads can coordinate their execution and synchronize data using wait calls. 
+
+There are a few limitations to futex syscalls. A wait call can only be assigned to one futex at a time, so if a process can not wait for multiple objects or resources to become available. While there are ways around this problem like using an eventfd syscall, it would be optimal to minimize the total number of syscalls. Likewise, the futex interface is complex, so features can not be added onto a futex once called. 
+
+A futex_waitv syscall is a new linux syscall which allows the process to wait on multiple futexes locks at once. This syscall reduces the amount of totall syscalls made and reduces the complexity which comes with calling multiple futexes. 
+
+Fsync is an updated linux library which calls futexes instead of eventfds. Gaming is immediately expected to make use of the fsync library because in a process with multiple threads and sets of objects, syscall efficiency is key to reduce CPU utilization and decrease latency. Wine emulates Windows' APIs through Linux library calls and syscalls. To increase efficiency, Linux requires kernel help the Windows API, but the original kernel does not support this implementation. Thus, extra software which issues syscalls like futex_waitv() is added to the Linux kernel to support this compatibility. However, the efficiency and performance of the game running on fsync and esync, the older library which uses eventfds, is different depending on the game. Fsync has not been shown to improve the performance of all games.
+
+This engineering feat and others like it make gaming on Linux platforms more attractive than Windows. While Windows was previously the default PC gaming platform, applications like Wine and Proton make it possible to run Windows games on a Linux operating system while increasing performance. In theory, the development and further research into the use of futexes and the fsync library should increase the performance of windows games. 
+
+
+
+URLs: 
+https://man7.org/linux/man-pages/man2/futex.2.html
+https://www.collabora.com/news-and-blog/blog/2023/02/17/the-futex-waitv-syscall-gaming-on-linux/
+
+
+
+/* Part 3 */
+
+Usually when I think of cybersecurity attacks, I think of outside processes trying to get access to the kernel. However, this paper demonstrates the methods in which a malicious kernel could take advantage of processes like OpenSSL's s_server and syscalls like malloc. 
+It is interesting how the kernel could overaly data in predicatable locations, locations which are already being used by other processes. This method opens the gateway to a variety of attacks like stack overflow attacks.
+Given the amount of trust that processes give the kernel to make basic syscalls like malloc, it seems pretty easy for an underlying syscall like _sbrk or _brk which malloc is dependent on to return a corrupt value. Because verifying return values is no simple task, it seems like there may be a tradeoff of security for efficiency.
+
+
+Though the paper mentions that legacy systems are untrustworthy, how difficult is it for one to get access to the kernel? The kernel requires kernel mode to run and seems like software to break.
+I was confused by the Apache attack at the bottom left column of page 255. How does the kernel fake a connection to another child process? I am generally confused by the description of this attack. 
+How frequent are Iago attacks, and what machines are their primary target?
+
+This paper made me learn more about the nature and variety of attacks which could be made on processes by the kernel. A trusted piece of software like the kernel could have faulty syscalls which are detrimental to processes. 
+
+
+
+

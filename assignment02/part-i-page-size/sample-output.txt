@@ -1,0 +1,95 @@
+CPU     ID                    FUNCTION:NAME
+  1  47781              vm_fault_trap:entry PID 3832: vm_fault_trap(Page Fault at Virtual Address at  9ce7808011c0
+
+  1  47782             vm_fault_trap:return PID: 3832: vm_fault_trap returned 0
+
+  1  47781              vm_fault_trap:entry PID 3832: vm_fault_trap(Page Fault at Virtual Address at  9ce781bf9b80
+
+  1  47782             vm_fault_trap:return PID: 3832: vm_fault_trap returned 0
+
+  1  47781              vm_fault_trap:entry PID 3832: vm_fault_trap(Page Fault at Virtual Address at  9ce780bfc000
+
+  1  47782             vm_fault_trap:return PID: 3832: vm_fault_trap returned 0
+
+  1  47781              vm_fault_trap:entry PID 3832: vm_fault_trap(Page Fault at Virtual Address at  4c8fb6ec1e68
+
+  1  47782             vm_fault_trap:return PID: 3832: vm_fault_trap returned 0
+
+  1  47781              vm_fault_trap:entry PID 3832: vm_fault_trap(Page Fault at Virtual Address at  9ce780a44000
+
+  1  47782             vm_fault_trap:return PID: 3832: vm_fault_trap returned 0
+
+Mapped Addresses: 0x3147c4009600 
+  1  47781              vm_fault_trap:entry PID 3832: vm_fault_trap(Page Fault at Virtual Address at  9ce78159f600
+
+  1  47782             vm_fault_trap:return PID: 3832: vm_fault_trap returned 0
+
+  5  47781              vm_fault_trap:entry PID 3830: vm_fault_trap(Page Fault at Virtual Address at  6100638bbf30
+
+  5  47782             vm_fault_trap:return PID: 3830: vm_fault_trap returned 0
+
+  4  47781              vm_fault_trap:entry PID 3833: vm_fault_trap(Page Fault at Virtual Address at  3147c4009600
+
+  4  47782             vm_fault_trap:return PID: 3833: vm_fault_trap returned 0
+
+  4  47781              vm_fault_trap:entry PID 3833: vm_fault_trap(Page Fault at Virtual Address at  3147c400a000
+
+  4  47782             vm_fault_trap:return PID: 3833: vm_fault_trap returned 0
+
+  4  47781              vm_fault_trap:entry PID 3833: vm_fault_trap(Page Fault at Virtual Address at  3147c400b000
+
+  4  47782             vm_fault_trap:return PID: 3833: vm_fault_trap returned 0
+
+  4  47781              vm_fault_trap:entry PID 3833: vm_fault_trap(Page Fault at Virtual Address at  3147c400c000
+
+  4  47782             vm_fault_trap:return PID: 3833: vm_fault_trap returned 0
+
+  4  47781              vm_fault_trap:entry PID 3833: vm_fault_trap(Page Fault at Virtual Address at  3147c400d000
+
+  4  47782             vm_fault_trap:return PID: 3833: vm_fault_trap returned 0
+
+  4  47781              vm_fault_trap:entry PID 3833: vm_fault_trap(Page Fault at Virtual Address at  82a438a8
+
+  4  47782             vm_fault_trap:return PID: 3833: vm_fault_trap returned 0
+
+  4  47781              vm_fault_trap:entry PID 3833: vm_fault_trap(Page Fault at Virtual Address at  82a4b6b0
+
+  4  47782             vm_fault_trap:return PID: 3833: vm_fault_trap returned 0
+
+  4  47781              vm_fault_trap:entry PID 3833: vm_fault_trap(Page Fault at Virtual Address at  3147c400e480
+
+  4  47782             vm_fault_trap:return PID: 3833: vm_fault_trap returned 0
+
+  4  47781              vm_fault_trap:entry PID 3833: vm_fault_trap(Page Fault at Virtual Address at  82a4c088
+
+  4  47782             vm_fault_trap:return PID: 3833: vm_fault_trap returned 0
+
+  0  47781              vm_fault_trap:entry PID 3832: vm_fault_trap(Page Fault at Virtual Address at  9ce780600c22
+
+  0  47782             vm_fault_trap:return PID: 3832: vm_fault_trap returned 0
+
+  0  47781              vm_fault_trap:entry PID 3832: vm_fault_trap(Page Fault at Virtual Address at  9ce7806095f0
+
+  0  47782             vm_fault_trap:return PID: 3832: vm_fault_trap returned 0
+
+  0  47781              vm_fault_trap:entry PID 3832: vm_fault_trap(Page Fault at Virtual Address at  9ce780607a88
+
+  0  47782             vm_fault_trap:return PID: 3832: vm_fault_trap returned 0
+
+  0  47781              vm_fault_trap:entry PID 3832: vm_fault_trap(Page Fault at Virtual Address at  9ce780603244
+
+  0  47782             vm_fault_trap:return PID: 3832: vm_fault_trap returned 0
+
+  0  47781              vm_fault_trap:entry PID 3832: vm_fault_trap(Page Fault at Virtual Address at  9ce780608244
+
+  0  47782             vm_fault_trap:return PID: 3832: vm_fault_trap returned 0
+
+  0  47781              vm_fault_trap:entry PID 3832: vm_fault_trap(Page Fault at Virtual Address at  9ce78063a000
+
+  0  47782             vm_fault_trap:return PID: 3832: vm_fault_trap returned 0
+
+  0  47781              vm_fault_trap:entry PID 3832: vm_fault_trap(Page Fault at Virtual Address at  4c8fb93de3b0
+
+  0  47782             vm_fault_trap:return PID: 3832: vm_fault_trap returned 0
+
+

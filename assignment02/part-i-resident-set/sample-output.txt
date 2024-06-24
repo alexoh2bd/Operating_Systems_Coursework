@@ -1,0 +1,56 @@
+ 
+  PID              START                END PRT  RES PRES REF SHD FLAG  TP PATH
+ 1243           0x200000           0x201000 r--    1    4   3   1 CN--- vn /home/aoh/a/cs414/assignment02/part-i-resident-set/maximum-resident
+ 1243           0x210000           0x211000 r-x    1    4   3   1 CN--- vn /home/aoh/a/cs414/assignment02/part-i-resident-set/maximum-resident
+ 1243           0x220000           0x221000 r--    1    0   1   0 C---- vn /home/aoh/a/cs414/assignment02/part-i-resident-set/maximum-resident
+ 1243           0x230000           0x231000 rw-    1    1   1   0 ----- sw 
+ 1243         0x403ef000         0x803cf000 ---    0    0   0   0 ----- gd 
+ 1243         0x803cf000         0x803ef000 rw-    4    4   1   0 ---D- sw 
+ 1243         0x804aa000         0x804ab000 r-x    1    1  23   0 ----- ph 
+ 1243         0x8072d000         0x807b2000 r--   85  376  85  43 CN--- vn /lib/libc.so.7
+ 1243         0x807b2000         0x807c1000 ---    0    0   0   0 CN--- gd 
+ 1243         0x807c1000         0x808f2000 r-x  265  376  85  43 CN--- vn /lib/libc.so.7
+ 1243         0x808f2000         0x80901000 ---    0    0   0   0 CN--- gd 
+ 1243         0x80901000         0x8090a000 r--    9    0   2   0 C---- vn /lib/libc.so.7
+ 1243         0x8090a000         0x8090b000 rw-    1    0   2   0 C---- vn /lib/libc.so.7
+ 1243         0x8090b000         0x8091a000 ---    0    0   0   0 CN--- gd 
+ 1243         0x8091a000         0x80921000 rw-    7    0   1   0 C---- vn /lib/libc.so.7
+ 1243         0x80921000         0x80b43000 rw-   18   18   1   0 ----- sw 
+ 1243       0xe2d5e00000       0xe2d5e21000 rw-   23   23   1   0 ----- sw 
+ 1243       0xe2d6000000       0xe2d6800000 rw-   14   14   1   0 ----- sw 
+ 1243     0x5642bcdac000     0x5642bcdb2000 r--    6   28  78  36 CN--- vn /libexec/ld-elf.so.1
+ 1243     0x5642bcdc1000     0x5642bcdd7000 r-x   22   28  78  36 CN--- vn /libexec/ld-elf.so.1
+ 1243     0x5642bcde6000     0x5642bcde7000 r--    1    0   1   0 C---- vn /libexec/ld-elf.so.1
+ 1243     0x5642bcdf6000     0x5642bcdf7000 rw-    1    0   1   0 C---- vn /libexec/ld-elf.so.1
+ 1243     0x5642bcdf7000     0x5642bcdf9000 rw-    2    2   1   0 ----- sw 
+ 1243     0xfffffffff000    0x1000000000000 ---    0    0   0   0 ----- gd
+ 
+  PID              START                END PRT  RES PRES REF SHD FLAG  TP PATH
+ 1243           0x200000           0x201000 r--    1    4   3   1 CN--- vn /home/aoh/a/cs414/assignment02/part-i-resident-set/maximum-resident
+ 1243           0x210000           0x211000 r-x    1    4   3   1 CN--- vn /home/aoh/a/cs414/assignment02/part-i-resident-set/maximum-resident
+ 1243           0x220000           0x221000 r--    1    0   1   0 C---- vn /home/aoh/a/cs414/assignment02/part-i-resident-set/maximum-resident
+ 1243           0x230000           0x231000 rw-    1    1   1   0 ----- sw 
+ 1243         0x403ef000         0x803cf000 ---    0    0   0   0 ----- gd 
+ 1243         0x803cf000         0x803ef000 rw-    4    4   1   0 ---D- sw 
+ 1243         0x804aa000         0x804ab000 r-x    1    1  23   0 ----- ph 
+ 1243         0x8072d000         0x807b2000 r--   85  376  85  43 CN--- vn /lib/libc.so.7
+ 1243         0x807b2000         0x807c1000 ---    0    0   0   0 CN--- gd 
+ 1243         0x807c1000         0x808f2000 r-x  265  376  85  43 CN--- vn /lib/libc.so.7
+ 1243         0x808f2000         0x80901000 ---    0    0   0   0 CN--- gd 
+ 1243         0x80901000         0x8090a000 r--    9    0   2   0 C---- vn /lib/libc.so.7
+ 1243         0x8090a000         0x8090b000 rw-    1    0   2   0 C---- vn /lib/libc.so.7
+ 1243         0x8090b000         0x8091a000 ---    0    0   0   0 CN--- gd 
+ 1243         0x8091a000         0x80921000 rw-    7    0   1   0 C---- vn /lib/libc.so.7
+ 1243         0x80921000         0x80b43000 rw-   18   18   1   0 ----- sw 
+ 1243       0xe2d5e00000       0xe2d5e21000 rw-   23   23   1   0 ----- sw 
+ 1243       0xe2d6000000       0xe2d6800000 rw-  115  115   1   0 ----- sw 
+ 1243     0x5642bcdac000     0x5642bcdb2000 r--    6   28  78  36 CN--- vn /libexec/ld-elf.so.1
+ 1243     0x5642bcdc1000     0x5642bcdd7000 r-x   22   28  78  36 CN--- vn /libexec/ld-elf.so.1
+ 1243     0x5642bcde6000     0x5642bcde7000 r--    1    0   1   0 C---- vn /libexec/ld-elf.so.1
+ 1243     0x5642bcdf6000     0x5642bcdf7000 rw-    1    0   1   0 C---- vn /libexec/ld-elf.so.1
+ 1243     0x5642bcdf7000     0x5642bcdf9000 rw-    2    2   1   0 ----- sw 
+ 1243     0xfffffffff000    0x1000000000000 ---    0    0   0   0 ----- gd 
+Process ID: 1243
+
+AFTER MALLOC at 0xe2d6212540: 
+

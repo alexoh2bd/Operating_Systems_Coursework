@@ -1,0 +1,55 @@
+CPU     ID                    FUNCTION:NAME
+  1  47781              vm_fault_trap:entry PID 3981: vm_fault_trap(Page Fault at Virtual Address at  a7c3958011c0, Mapping at  ffff0000d3af5728
+
+  1  47782             vm_fault_trap:return PID: 3981: vm_fault_trap returned 0
+
+  1  47781              vm_fault_trap:entry PID 3981: vm_fault_trap(Page Fault at Virtual Address at  a7c396c08600, Mapping at  ffff0000d3af5728
+
+  1  47782             vm_fault_trap:return PID: 3981: vm_fault_trap returned 0
+
+  1  47781              vm_fault_trap:entry PID 3981: vm_fault_trap(Page Fault at Virtual Address at  a7c395bf9000, Mapping at  ffff0000d3af5728
+
+  1  47782             vm_fault_trap:return PID: 3981: vm_fault_trap returned 0
+
+  1  47781              vm_fault_trap:entry PID 3981: vm_fault_trap(Page Fault at Virtual Address at  5dff380dbe68, Mapping at  ffff0000d3af5728
+
+  1  47782             vm_fault_trap:return PID: 3981: vm_fault_trap returned 0
+
+  1  47781              vm_fault_trap:entry PID 3981: vm_fault_trap(Page Fault at Virtual Address at  a7c395a44000, Mapping at  ffff0000d3af5728
+
+  1  47782             vm_fault_trap:return PID: 3981: vm_fault_trap returned 0
+
+  3  47781              vm_fault_trap:entry PID 3982: vm_fault_trap(Page Fault at Virtual Address at  0000, Mapping at  ffff0000d33b38f0
+
+  3  47782             vm_fault_trap:return PID: 3982: vm_fault_trap returned 1
+
+  5  47781              vm_fault_trap:entry PID 3981: vm_fault_trap(Page Fault at Virtual Address at  a7c395600c22, Mapping at  ffff0000d3af5728
+
+  5  47782             vm_fault_trap:return PID: 3981: vm_fault_trap returned 0
+
+  5  47781              vm_fault_trap:entry PID 3981: vm_fault_trap(Page Fault at Virtual Address at  a7c3956095f0, Mapping at  ffff0000d3af5728
+
+  5  47782             vm_fault_trap:return PID: 3981: vm_fault_trap returned 0
+
+  5  47781              vm_fault_trap:entry PID 3981: vm_fault_trap(Page Fault at Virtual Address at  a7c395607a88, Mapping at  ffff0000d3af5728
+
+  5  47782             vm_fault_trap:return PID: 3981: vm_fault_trap returned 0
+
+  5  47781              vm_fault_trap:entry PID 3981: vm_fault_trap(Page Fault at Virtual Address at  a7c395603244, Mapping at  ffff0000d3af5728
+
+  5  47782             vm_fault_trap:return PID: 3981: vm_fault_trap returned 0
+
+ 
+5  47781              vm_fault_trap:entry PID 3981: vm_fault_trap(Page Fault at Virtual Address at  a7c395608244, Mapping at  ffff0000d3af5728
+
+  5  47782             vm_fault_trap:return PID: 3981: vm_fault_trap returned 0
+
+  5  47781              vm_fault_trap:entry PID 3981: vm_fault_trap(Page Fault at Virtual Address at  a7c39563a000, Mapping at  ffff0000d3af5728
+
+  5  47782             vm_fault_trap:return PID: 3981: vm_fault_trap returned 0
+
+  5  47781              vm_fault_trap:entry PID 3981: vm_fault_trap(Page Fault at Virtual Address at  5dff3b3963b0, Mapping at  ffff0000d3af5728
+
+  5  47782             vm_fault_trap:return PID: 3981: vm_fault_trap returned 0
+
+

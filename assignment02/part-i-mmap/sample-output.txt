@@ -1,0 +1,72 @@
+  PID              START                END PRT  RES PRES REF SHD FLAG  TP PATH
+ 5948           0x200000           0x201000 r--    1    5   3   1 CN--- vn /usr/home/aoh/assignment02/part-i-mmap/whither-mmap
+ 5948           0x210000           0x211000 r-x    1    5   3   1 CN--- vn /usr/home/aoh/assignment02/part-i-mmap/whither-mmap
+ 5948           0x220000           0x222000 r--    2    0   1   0 C---- vn /usr/home/aoh/assignment02/part-i-mmap/whither-mmap
+ 5948           0x231000           0x232000 rw-    1    1   1   0 ----- df 
+ 5948         0x40231000         0x40237000 r--    6   26  83  25 CN--- vn /libexec/ld-elf.so.1
+ 5948         0x40247000         0x4025c000 r-x   20   26  83  25 CN--- vn /libexec/ld-elf.so.1
+ 5948         0x4026b000         0x4026c000 r--    1    0   1   0 C---- vn /libexec/ld-elf.so.1
+ 5948         0x4027b000         0x4029e000 rw-   26   26   1   0 ----- df 
+ 5948         0x4029e000         0x40318000 r--   75  308 121  63 CN--- vn /lib/libc.so.7
+ 5948         0x40318000         0x40327000 ---    0    0   0   0 CN--- gd 
+ 5948         0x40327000         0x40455000 r-x  211  308 121  63 CN--- vn /lib/libc.so.7
+ 5948         0x40455000         0x40464000 ---    0    0   0   0 CN--- gd 
+ 5948         0x40464000         0x4046d000 r--    9    0   2   0 C---- vn /lib/libc.so.7
+ 5948         0x4046d000         0x4046e000 rw-    1    0   2   0 C---- vn /lib/libc.so.7
+ 5948         0x4046e000         0x4047d000 ---    0    0   0   0 CN--- gd 
+ 5948         0x4047d000         0x40484000 rw-    7    0   1   0 C---- vn /lib/libc.so.7
+ 5948         0x40484000         0x406ae000 rw-   16   16   1   0 ----- df 
+ 5948         0x40800000         0x41000000 rw-   14   14   1   0 ----- df 
+ 5948     0xffffbffff000     0xfffffffdf000 ---    0    0   0   0 ----- gd 
+ 5948     0xfffffffdf000     0xfffffffff000 rw-    4    4   1   0 ---D- df 
+ 5948     0xfffffffff000    0x1000000000000 r-x    1    1  32   0 ----- ph 
+  PID              START                END PRT  RES PRES REF SHD FLAG  TP PATH
+ 5948           0x200000           0x201000 r--    1    5   3   1 CN--- vn /usr/home/aoh/assignment02/part-i-mmap/whither-mmap
+ 5948           0x210000           0x211000 r-x    1    5   3   1 CN--- vn /usr/home/aoh/assignment02/part-i-mmap/whither-mmap
+ 5948           0x220000           0x222000 r--    2    0   1   0 C---- vn /usr/home/aoh/assignment02/part-i-mmap/whither-mmap
+ 5948           0x231000           0x232000 rw-    1    1   1   0 ----- df 
+ 5948         0x40231000         0x40237000 r--    6   26  83  25 CN--- vn /libexec/ld-elf.so.1
+ 5948         0x40237000         0x40238000 r--    0    0   0   0 ----- -- 
+ 5948         0x40247000         0x4025c000 r-x   20   26  83  25 CN--- vn /libexec/ld-elf.so.1
+ 5948         0x4026b000         0x4026c000 r--    1    0   1   0 C---- vn /libexec/ld-elf.so.1
+ 5948         0x4027b000         0x4029e000 rw-   26   26   1   0 ----- df 
+ 5948         0x4029e000         0x40318000 r--   75  308 121  63 CN--- vn /lib/libc.so.7
+ 5948         0x40318000         0x40327000 ---    0    0   0   0 CN--- gd 
+ 5948         0x40327000         0x40455000 r-x  211  308 121  63 CN--- vn /lib/libc.so.7
+ 5948         0x40455000         0x40464000 ---    0    0   0   0 CN--- gd 
+ 5948         0x40464000         0x4046d000 r--    9    0   2   0 C---- vn /lib/libc.so.7
+ 5948         0x4046d000         0x4046e000 rw-    1    0   2   0 C---- vn /lib/libc.so.7
+ 5948         0x4046e000         0x4047d000 ---    0    0   0   0 CN--- gd 
+ 5948         0x4047d000         0x40484000 rw-    7    0   1   0 C---- vn /lib/libc.so.7
+ 5948         0x40484000         0x406ae000 rw-   16   16   1   0 ----- df 
+ 5948         0x40800000         0x41000000 rw-   14   14   1   0 ----- df 
+ 5948     0xffffbffff000     0xfffffffdf000 ---    0    0   0   0 ----- gd 
+ 5948     0xfffffffdf000     0xfffffffff000 rw-    4    4   1   0 ---D- df 
+ 5948     0xfffffffff000    0x1000000000000 r-x    1    1  32   0 ----- ph 
+  PID              START                END PRT  RES PRES REF SHD FLAG  TP PATH
+ 5948           0x200000           0x201000 r--    1    5   3   1 CN--- vn /usr/home/aoh/assignment02/part-i-mmap/whither-mmap
+ 5948           0x210000           0x211000 r-x    1    5   3   1 CN--- vn /usr/home/aoh/assignment02/part-i-mmap/whither-mmap
+ 5948           0x220000           0x222000 r--    2    0   1   0 C---- vn /usr/home/aoh/assignment02/part-i-mmap/whither-mmap
+ 5948           0x231000           0x232000 rw-    1    1   1   0 ----- df 
+ 5948         0x40231000         0x40237000 r--    6   26  83  25 CN--- vn /libexec/ld-elf.so.1
+ 5948         0x40247000         0x4025c000 r-x   20   26  83  25 CN--- vn /libexec/ld-elf.so.1
+ 5948         0x4026b000         0x4026c000 r--    1    0   1   0 C---- vn /libexec/ld-elf.so.1
+ 5948         0x4027b000         0x4029e000 rw-   26   26   1   0 ----- df 
+ 5948         0x4029e000         0x40318000 r--   75  308 121  63 CN--- vn /lib/libc.so.7
+ 5948         0x40318000         0x40327000 ---    0    0   0   0 CN--- gd 
+ 5948         0x40327000         0x40455000 r-x  211  308 121  63 CN--- vn /lib/libc.so.7
+ 5948         0x40455000         0x40464000 ---    0    0   0   0 CN--- gd 
+ 5948         0x40464000         0x4046d000 r--    9    0   2   0 C---- vn /lib/libc.so.7
+ 5948         0x4046d000         0x4046e000 rw-    1    0   2   0 C---- vn /lib/libc.so.7
+ 5948         0x4046e000         0x4047d000 ---    0    0   0   0 CN--- gd 
+ 5948         0x4047d000         0x40484000 rw-    7    0   1   0 C---- vn /lib/libc.so.7
+ 5948         0x40484000         0x406ae000 rw-   16   16   1   0 ----- df 
+ 5948         0x40800000         0x41000000 rw-   14   14   1   0 ----- df 
+ 5948     0xffffbffff000     0xfffffffdf000 ---    0    0   0   0 ----- gd 
+ 5948     0xfffffffdf000     0xfffffffff000 rw-    4    4   1   0 ---D- df 
+ 5948     0xfffffffff000    0x1000000000000 r-x    1    1  32   0 ----- ph 
+mypid is 5948
+Before mmap:
+Mapped memory address :0x40237000
+After mmap:
+After un-map:
